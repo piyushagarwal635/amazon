@@ -1,0 +1,446 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+    
+}
+
+
+.navbar{
+    height: 60px;
+    background-color: rgb(19, 25, 33);
+    color: white; 
+    padding-left: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.navbar a{
+    color: white;
+text-decoration: none;
+}
+
+
+.border{
+    border: none 1px solid;
+    height: 50px;
+}
+
+.border:hover{
+    border: none 1px solid;
+    border: white 1.2px solid;
+    border-radius: 3px;
+}
+
+.border1{
+height: 40px;
+
+}
+
+.border1:hover{
+    border: white 1.2px solid;
+    border-radius: 3px;
+    
+}
+.search{
+    display: flex;
+    border: none;
+    background-color: rgb(245, 170, 72);
+    width: 700px;
+    height: 45px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 15px;
+    border: 2px solid none;
+    
+
+}
+
+.search:hover{
+    background-color: rgb(241, 149, 28);
+    border: 2px solid darkorange;
+   
+}
+
+.all-search{
+    width: 50px;
+    height: 45px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(230, 230, 230);
+    color: rgb(41, 41, 41);
+    border: none;
+    
+}
+.all-search:hover{
+    background-color: rgb(212, 212, 212);
+    color: black;
+}
+
+.p{
+    position:absolute;
+    top: 15px; 
+    margin-left: 10px;
+}
+
+.b{
+    font-weight: 800;  
+    display: flex; 
+    position:absolute; 
+    top: 27px; 
+    margin-left: 10px;
+}
+
+.bg{
+    background-image: url('amazon_wallpaper.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    min-height: 100vh; 
+    background-position: center;
+    animation: bounce 10s infinite;
+}
+
+.line{
+    background-color: rgb(245, 246, 246); 
+    width: 1300px; 
+    height:30px; 
+    text-align: center; 
+    position: absolute; 
+    top: 370px; 
+    left: 20px; 
+    justify-content: center; 
+    display:flex ; 
+    align-items: center; 
+    font-size: 14px;
+}
+
+.bg1{
+    background-color: rgb(227, 230, 230); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    min-height: 785vh; 
+    background-position: center;
+}
+
+@keyframes bounce{
+    0% {top: 0px;}
+    50% {top: 100px;}
+    100% {top: 0px;}
+}
+
+.wh{
+    width: 130px;
+    height: 115px;
+    animation: bounce 10s infinite;
+}
+
+.navbar1 ul li{
+    list-style: none;
+    float: left;
+    margin-right: 2px;
+    font-size: 0.80rem;
+    font-weight: 500;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.navbar1 ul a li{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar1 ul{
+    margin-left: -35px;
+}
+
+.navbar2{
+    height: 40px;
+    color: white; 
+    align-items: center;
+    text-align: center;
+    background-color: rgb(29, 40, 53);
+    display: flex; 
+    
+    
+}
+
+.color{
+    color: #007185;
+    text-decoration: none;
+}
+
+.color:hover{
+    color: red;
+
+}
+
+.heading{
+    padding: 0px 20px; 
+    margin: 0px 0px 10px;
+}
+
+.div1{
+    width:  310px; 
+    height: 400px; 
+    background-color: white; 
+    padding: 20px 0px 15px;
+}
+
+.div2{
+    justify-content: space-evenly; 
+    display: flex;
+}
+
+.div3{
+    justify-content: space-evenly; 
+    display: flex; 
+    padding-top: 20px;
+}
+
+.see{
+    margin-left: 25px; 
+    margin-top:30px;
+}
+
+.div4{
+    width: 100%; 
+    height: 160px; 
+    background-color: white; 
+    padding-top: 45px;
+}
+
+.div5{
+    background-color: white;  
+    width:94%; 
+    height: 270px; 
+    padding: 20px 20px;
+}
+
+fieldset{
+    border-radius: 4px; 
+    border-color: #DDD; 
+    border-width: 1px; 
+    text-align: center; 
+    padding-top: 40px; 
+    height: 75px;
+}
+
+button{
+    width: 250px; 
+    height: 30px; 
+    border-radius: 5px; 
+    background-color: orange; 
+    border-color: rgb(255, 136, 0); 
+    margin-top: 5px; 
+    margin-bottom: 5px;
+}
+
+.foot{ 
+    background-color: rgb(55 71 90);
+    height: 49px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-weight: 800px;
+    font-size: 13px;
+    
+}
+ .foot:hover{
+    background-color: blur;
+    opacity: 0.92;
+ }
+
+ .foot1{
+    background-color: #232F3E;
+    height: 520px;
+    
+    
+ }
+
+ .foot2{color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 60px 60px 60px;
+
+ }
+
+ .ul li a{
+    color: #DDDDDD;
+   text-decoration: none;
+   font-size: 13px;
+   font-weight: bold;
+   
+ }
+
+ .ul li{
+    list-style: none;
+    ;
+    margin: 10px 0px 10px -40px
+ }
+ .ul li :hover{
+    text-decoration: underline;
+ }
+
+ .hr{
+    border-top: 1px solid #3A4553;
+ }
+
+ .foot3{
+justify-content: space-evenly;
+display: flex;
+margin: 34px 0px 30px 0px;
+ }
+
+ .foot4{
+    justify-content: space-evenly;
+    display: flex;
+    margin: 11px 0px 30px -300px;
+}
+
+.foot4 div {
+    margin: 0px 5px 0px 5px;
+    border-radius: 4px;
+    border: 1px #848688 solid;
+    width: 130px; 
+    height: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #CCCCCC
+    
+        
+}
+
+.foot4 div a{
+   text-decoration: none;
+   font-size: 13px;
+}
+
+.f{
+background-color: #131A22;
+height: 450px;
+justify-content: space-evenly;
+display: flex;
+font-family: inherit;
+}
+
+.f table tr {
+    justify-content: space-evenly; 
+    display: flex;
+    margin-bottom: 14.6px;
+    
+}
+
+.f table{
+        margin-top: 25px;
+}
+
+.f table tr td a{
+        color: white;
+        font-size: 11.9px;
+        color: #999;
+        text-decoration: none;
+        
+        
+}
+
+.f table tr td a:hover{
+    text-decoration: underline;
+}
+
+.column1{
+    height: 81px;
+}
+.column2{
+    height: 68px;
+}
+.column3{
+    height: 68px;
+}
+.column4{
+    height: 55px;
+}
+
+.row1{
+    width: 115.3px;
+}
+
+.row2{
+    width: 121.17px;
+}
+
+.row3{
+    width: 102.52px;
+}
+
+.row4{
+    width: 117.77px;
+}
+
+.row5{
+    width: 147.69px;
+}
+
+.row6{
+    width: 125.61px;
+}
+
+.row7{
+    width: 90px;
+}
+.f table tr td a h4{
+    color: #DDDDDD;
+    font-weight: 900px;
+    font-size: 12px;
+}
+
+.f table tr td {
+    margin-right:14px;
+    margin-left:14px;
+    line-height:80%;
+}
+.f table tr td h4{
+   
+    line-height: 1;
+}
+
+
+.end{
+    position: absolute;
+    top: 6170px;
+    text-align: center;
+    font-size: 12px;
+    
+}
+
+
+.end p{
+    color: #DDDDDD;
+    display: flex;
+    text-align: center;
+}
+
+.end a {
+    color: #DDDDDD;
+    text-decoration: none;
+    
+    
+    
+}
+
+.end a:hover{
+    text-decoration: underline;
+}
+
+.end div{
+    color: #DDDDDD;
+}
